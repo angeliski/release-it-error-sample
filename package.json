@@ -1,0 +1,17 @@
+{
+  "name": "release-it-error-sample",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Run tests\"",
+    "build": "echo \"Run build\"",
+    "release": "release-it"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "release-it": "^10.0.1"
+  }
+}

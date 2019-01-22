@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "beforeStart": "npm test",
+    "beforeBump": "npm run build",
+    "afterRelease": "echo Successfully released ${name} v${version}"
+  },
+  "git": {
+    "tagName": "v%s",
+    "commitMessage": "chore(release): %s",
+    "addUntrackedFiles": true
+  },
+  "github": {
+    "release": false
+  },
+  "npm": {
+    "publish": false,
+    "private": true
+  }
+}
